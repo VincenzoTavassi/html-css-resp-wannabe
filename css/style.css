@@ -140,6 +140,7 @@ img {
     .container {
         max-width: 90%;
     }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -151,11 +152,10 @@ img {
     .row {
         flex-direction: column;
         align-items: center;
-        flex-wrap: wrap;
     }
 
     .lessons .col {
-        width: 80%;
+        width: 100%;
     }
 
     .lessons .col:first-child {
@@ -163,7 +163,7 @@ img {
     }
 
     .steps .col {
-        width: 80%;
+        width: 100%;
     }
 
     .steps .card {
@@ -172,7 +172,7 @@ img {
 
     .why-us .col-left,
     .why-us .col-right {
-        width: 80%;
+        width: 100%;
     }
 
     .why-us .col-left {
